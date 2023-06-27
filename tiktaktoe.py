@@ -28,7 +28,7 @@ def check_win(board): #функция определяет правила поб
        if board[final[0]] == board[final[1]] == board[final[2]]: #проверяем, если в каждой клетке из списка кейсов на победу значение одинаковое (или X или O), то значит победа у соотв игрока
           return board[final[0]] #функция возвращает код победителя (или X или O)
    return False
-
+#
 def main(board):
     counter = 0
     win = False
